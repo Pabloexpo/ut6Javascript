@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+.escudos{
+    align-self: center;
+}
+.botones{
+    align-self: center;
+}
+#btnInicial{
+    width: 30%;
+    height: 4em;
+    align-self: center;
+}

@@ -77,8 +77,10 @@ document.body.append(main);
 
 //FUNCIONES
 function fvalidacion() {
+    let regex = /^9999$/;
+    console.log(caja.value)
     const pwd = 9999; //contraseña a descifrar
-    if (pwd == caja.value) {
+    if (regex.test(caja.value)) {
         //Si la pwd es correcta, pues añadimos nuevo contenido al html 
         div.textContent = 'COMBINACIÓN CORRECTA'
         caja.value = ''
